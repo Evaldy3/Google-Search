@@ -13,22 +13,26 @@
   <body>
 
     <div class="container-fluid">
-        <ul class="nav justify-content-end mt-3">
+        <!--Nav & Tab-->
+        <ul class="nav justify-content-end mt-2">
             <li class="nav-item">
               <a class="nav-link" id="nav-link" aria-current="page" href="#">Gmail</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="nav-link" href="#">Images</a>
             </li>
+            <!-- Dots -->
             <li class="nav-item">
                 <p>
                     <a class="btn" id="google-dots"type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                      <img src="/img/dot2.png" alt="Google apps">
                     </a>
                 </p>
+
+                <!-- Collapsing  when you click the dots square  -->
                 <div class="collapse"id="collapseExample">
                     <div class="card card-body" id="card-body">
-                        <!--Row1-->
+                        <!--Collapsing section 1-->
                         <div class="row">
                             <div class="col-lg-4 col-md-4 mt-2 text-center">
                                 <a href="http://"><img src="https://img.icons8.com/bubbles/50/000000/guest-male.png"/><p>Account</p></a>
@@ -42,9 +46,9 @@
                     
                             </div>
                         </div>
-                         <!--Row1-->
+                        <!--Collapsing section 1-->
                        
-                          <!--Row2-->
+                        <!--Collapsing section 2-->
                         <div class="row">
                             <div class="col-lg-4 col-md-4 mt-2 text-center">
                                 <a href="http://"><img src="https://img.icons8.com/color/48/000000/google-play.png"/><p>Play</p></a>
@@ -56,12 +60,12 @@
                                 <a href="http://"><img src="https://img.icons8.com/fluent/48/000000/google-drive--v2.png"/><P >Drive</P></a>
                             </div>
                         </div>
-                         <!--Row2-->
+                        <!--Collapsing section 2-->
 
-                          <!--Row3-->
+                        <!--Collapsing section 3-->
                         <div class="row">
-                            <div class="col-lg-4 col-md-4 mt-2 text-center" id="mg-pd2">
-                                <a href="http://"><img src="https://img.icons8.com/color/48/000000/google-contacts.png"/><p id="mg-pd">Contacts</p></a>  
+                            <div class="col-lg-4 col-md-4 mt-2 text-center">
+                                <a href="http://"><img src="https://img.icons8.com/color/48/000000/google-contacts.png"/><p>Contacts</p></a>  
                             </div>
                             <div class="col-lg-4 col-md-4 mt-2 text-center">
                                 <a href="http://"><img src="https://img.icons8.com/fluent/48/000000/google-calendar--v2.png"/><p>Calendar</p></a>
@@ -70,9 +74,9 @@
                                 <a href="http://"><img src="https://img.icons8.com/color/48/000000/google-translate.png"/><p>Translate</p></a>
                             </div>
                         </div>
-                         <!--Row3-->
+                        <!--Collapsing section 3-->
 
-                          <!--Row4-->
+                        <!--Collapsing section 4-->
                         <div class="row">
                             <div class="col-lg-4 col-md-4 mt-2 text-center">
                                 <a href="http://"><img src="https://img.icons8.com/fluent/48/000000/google-photos-new.png"/><p>Photos</p></a>   
@@ -84,54 +88,87 @@
                                 <a href="http://"><img src="https://img.icons8.com/fluent/48/000000/google-meet.png"/><p>Meet</p></a>
                             </div>
                         </div>
-                         <!--Row4-->
+                        <!--Collapsing section 4-->
 
-                          <!--Row5-->
+                        <!--Collapsing section 5-->
                         <div class="row">
                             <div class="col-lg-4 col-md-4 mt-2 text-center">
                                 <a class="text-center" href="http://"><img src="https://img.icons8.com/color/48/000000/google-duo.png"/><p>Duo</p></a>
                             </div>
                         </div>
-                         <!--Row5-->
-                         <hr>    
+                        <!--Collapsing section 5-->
+
+                        <!-- Divider-->
+                        <div class="row">
+                            <hr>   
+                        </div>
+                        <!-- Divider-->
                       
                     </div>
                 </div>
+                <!-- Collapsing  when you click the dots square  -->
             </li>
+            <!-- Dots -->
+
+            <!-- Sign in button  -->
             <li class="nav-item mt-1">
                 <a class="btn btn-primary" href="#" role="button">Sign in</a>
-              </li>
+            </li>
+            <!-- Sign in button  -->
             
-        </ul> 
+        </ul>
+        <!--Nav & Tab-->
+
+        <!--Body page (Google logo , form , button & texts)-->
+
+        <!--Logo-->
         <div class="d-flex justify-content-center align-items-center">
             <img id="google-logo" src="/img/ic_apps_48px-512.png" alt="">
         </div>
+        <!--Logo-->
+
+        <!--Form-->
         <form class="row">
             <div class="d-flex justify-content-center align-items-center mt-4">
               <input type="text" class="form-control" id="search-box">
             </div>
         </form>
-        <div class="d-flex justify-content-center align-items-center mt-4">
+        <!--Form-->
+
+        <!--Button-->
+        <div class="d-flex justify-content-center align-items-center mt-4" id="button">
             <button type="button" class="btn" id="btn">Google Search</button>
             <button type="button" class="btn"  id="btn">I'm Feeling Lucky</button>
         </div>
+        <!--Button-->
+
+        <!--Text-->
         <div class="d-flex justify-content-center align-items-center mt-4">
-            <p>Google offered in: <a href="https://www.google.com/setprefs?sig=0_X4YjfWNpyxbd4nSUM-4ecP6gyLo%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwj77ayBxcTvAhXnTDABHW7sCksQ2ZgBCA4">Français</a> 
-                <a href="https://www.google.com/setprefs?sig=0_X4YjfWNpyxbd4nSUM-4ecP6gyLo%3D&hl=ht&source=homepage&sa=X&ved=0ahUKEwj77ayBxcTvAhXnTDABHW7sCksQ2ZgBCA8">Kreyòl Ayisyen</a></p>
+            <p>Google offered in: 
+                <a href="https://www.google.com/setprefs?sig=0_X4YjfWNpyxbd4nSUM-4ecP6gyLo%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwj77ayBxcTvAhXnTDABHW7sCksQ2ZgBCA4">Français</a> 
+                <a href="https://www.google.com/setprefs?sig=0_X4YjfWNpyxbd4nSUM-4ecP6gyLo%3D&hl=ht&source=homepage&sa=X&ved=0ahUKEwj77ayBxcTvAhXnTDABHW7sCksQ2ZgBCA8">Kreyòl Ayisyen</a>
+            </p>
         </div>
+        <!--Text-->
+
+        <!--Body page (Google logo , form , button & texts)-->
 
         <div class="row">
             <footer id="footer">
-                <div class="row">
+                <div id="footer-part1">
                     <p>Haiti</p>
-                    <hr>
-                    <div class="col-lg-6 col-md-6">
-                        <nav class="nav" id="nav-f2">
-                            <a class="nav-link" href="#">About</a>
-                            <a class="nav-link" href="#">Advertising</a>
-                            <a class="nav-link" href="#">Business</a>
-                            <a class="nav-link" href="#">How Search works</a>
-                        </nav>
+                </div>
+                <div class="row">
+                    <hr style="background-color: rgba(0,0,0,.54);">
+                </div>
+                <div class="row" id="footer-part2">
+                    <div class="col-lg-6 col-md-6" id="nav-f2">
+                            <nav class="nav">
+                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#">Advertising</a>
+                                <a class="nav-link" href="#">Business</a>
+                                <a class="nav-link" href="#">How Search works</a>
+                            </nav>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <nav class="nav justify-content-end" id="nav-f3">
