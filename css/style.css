@@ -24,6 +24,23 @@ div
     margin-top: 5px;
 }
 
+
+/* image for collapsing */
+
+#google-dots
+{
+    margin-top: 4px;
+   
+}
+
+/* image for collapsing */
+
+#sign-button
+{
+    margin-top: 4px;
+}
+
+
 /* Collapsing the nav & tab when you click the dots square */
 #collapseExample
 {
@@ -55,18 +72,33 @@ div
 /* Media events screen */
 
 
+
+/* Main Page */
+
+/* search-box */
 #search-box
 {
-    width: 580px;
-    height: 46px;
-    border-radius: 25px;
+    max-width: 584px;
+    height: 44px;
+    border-radius: 24px;
+    box-shadow: none;
+    border: 1px solid #dfe1e5;
+    background: #fff;
 
 }
 
+
+/* search-box */
+
+
+/* Button */
 #btn
 {
     background-color: #f8f9fa;
     margin-left: 15px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
 }
 
 #btn:hover
@@ -74,15 +106,29 @@ div
     border: 1px solid #ced6e0;
     border-radius: 4px;
 }
+/* Button */
 
+
+/* Text */
+p
+{
+    font-size: 13px;
+    font-family: arial,sans-serif; 
+}
 a
 {
     text-decoration: none;
+    color: #1a0dab;
+    padding: 0 3px;
+    line-height: 28px;
 }
+/* Text */
+
+
+/* Main Page */
 
 
 /* FOOTER*/
-
 #footer 
 {
     background-color: #f2f2f2;
@@ -104,6 +150,7 @@ a
     height: 30px;  
 }
 
+
 /* event in nav (footer big screen) */
 @media (min-width:600px)
 {
@@ -113,6 +160,7 @@ a
     }
 }
 /* event in nav (footer) */
+
 
 
 /* event in nav (footer big screen) */
@@ -132,5 +180,7 @@ a
   }
 }
 /* event in nav (footer big screen) */
+
+
 
 /* FOOTER*/
