@@ -14,12 +14,12 @@
 
     <div class="container-fluid">
         <!--Nav & Tab-->
-        <ul class="nav justify-content-end mt-2">
+        <ul class="nav justify-content-end mt-2 na">
             <li class="nav-item">
               <a class="nav-link" id="nav-link" aria-current="page" href="#">Gmail</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="nav-link" href="/image.html">Images</a>
+              <a class="nav-link" id="nav-link" href="#">Images</a>
             </li> 
             <!-- Dots -->
             <li class="nav-item">
@@ -215,9 +215,15 @@
         <!--Body page (Google logo , form , button & texts)-->
 
         <!--Logo-->
+        
         <div class="d-flex justify-content-center align-items-center">
-            <img id="google-logo" src="/img/ic_apps_48px-512.png" alt="">
+            <div class="IMG-P">
+                <span>images</span>
+            </div>
+            <img id="google-logo" src="/img/ic_apps_48px-512.png" alt=""> 
+           
         </div>
+       
         <!--Logo-->
          <form  class="mt-4 mb-4" action="https://google.com/search" method="GET" role="search">
              <div class="search-box">
@@ -225,34 +231,55 @@
                      <div class="sr-ic">
                          <img class="sr-ic-img" src="/img/search.png" alt="">
                      </div>
+                    
                      <div class="space-bet-icons">
                         <input class="submit"  type="text" name="q">
                      </div>
                      <div class="mic-ic">
+                       <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary btn-img" data-bs-toggle="modal" data-bs-target="#exampleModal"> <img class="cam-ic-img" src="/img/camera.png" alt="">
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                               
+                               
+                           
+                                <div class="modal-body">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                 <h4>Recherche par image</h4>
+                                 <p>Effectuez des recherches sur Google à l'aide d'images au lieu de texte. Faire glisser une image ici</p>
+                                 <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="form-control">Coller l'URL de l'image</a>
+                                     
+                                      
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Importer une image</a>
+                                    </li>
+                                   
+                                  </ul>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="mic-ic">
                          <img src="/img/mic.png" alt="" class="mic-ic-img">
                      </div>
-                     
+                     <div class="sr-ic">
+                        <img class="sr-ic-img-2" src="/img/unnamed.png" alt="">
+                    </div>
                  </div>
              </div>
          </form>
         <!--Form-->
     
 
-        <!--Button-->
-        <div class="d-flex justify-content-center align-items-center mt-4" id="button">
-            <button type="button" class="btn" id="btn">Google Search</button>
-            <button type="button" class="btn"  id="btn">I'm Feeling Lucky</button>
-        </div>
-        <!--Button-->
-
-        <!--Text-->
-        <div class="d-flex justify-content-center align-items-center mt-4">
-            <p>Google offered in: 
-                <a href="https://www.google.com/setprefs?sig=0_X4YjfWNpyxbd4nSUM-4ecP6gyLo%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwj77ayBxcTvAhXnTDABHW7sCksQ2ZgBCA4">Français</a> 
-                <a href="https://www.google.com/setprefs?sig=0_X4YjfWNpyxbd4nSUM-4ecP6gyLo%3D&hl=ht&source=homepage&sa=X&ved=0ahUKEwj77ayBxcTvAhXnTDABHW7sCksQ2ZgBCA8">Kreyòl Ayisyen</a>
-            </p>
-        </div>
-        <!--Text-->
+      
 
         <!--Body page (Google logo , form , button & texts)-->
 

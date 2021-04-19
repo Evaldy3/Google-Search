@@ -47,13 +47,77 @@ div
     position:fixed;
     right: 20px;
 }
+
+.divider
+{
+    margin-top: 0;
+}
 /* Collapsing the nav & tab when you click the dots square */
 
 #card-body
 {
-    width: 300px;
-    max-height: 200px;
-    height: auto;
+    width: 328px;
+    height: 448px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+   
+}
+::-webkit-scrollbar{width:  10px;}
+   
+
+    ::-webkit-scrollbar-thumb
+    {
+        border-radius: 7px;
+       background:  #dfe4ea;   
+       scroll-margin: 20px;
+    }
+
+.bt-b 
+{
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 0px 20px 30px;
+    max-width: 265px;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    white-space: normal;
+    width: auto;
+    height: 60px;
+}
+.bt-b:hover 
+{
+    background-color: #fff;
+    border: 1px solid #4b93f1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0px 0px 20px 30px;
+    max-width: 265px;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    white-space: normal;
+    width: auto;
+    height: 60px;
+}
+
+#bt-b-a
+{
+    color: #1a73e8;
+}
+
+@media (max-width: 599px) 
+{
+    .remove-margin
+    {
+      
+    }
+  
 }
 
 /* Navs & Tabs */
@@ -64,6 +128,7 @@ div
    #google-logo
    {
        margin-top:181px;
+      
    }
 
 }
@@ -73,6 +138,8 @@ div
     #google-logo
    {
        margin-top:181px;
+       margin-bottom: 0;
+      
    }
 }
 /* Media events screen */
@@ -158,13 +225,45 @@ form
 .mic-ic
 {
     margin-top: 5px;
-    padding: 0 8px;
+    padding: 0 9px;
 }
 
 .mic-ic-img
 {
    width: 13px;
   
+  
+}
+
+.cam-ic-img
+{
+    width: 28px;
+    margin-top: -1px;
+}
+
+.sr-ic-img-2
+{
+    margin-left: 18px;
+    width: 17px;
+}
+
+.IMG-P
+{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    left: 268px;
+    top:130px;
+   
+}
+@media (max-width: 599px) 
+{
+   .navbar
+    {
+        display: none;
+    }
+
+   
 }
 /* search-box */
 
@@ -183,6 +282,21 @@ form
 {
     border: 1px solid #ced6e0;
     border-radius: 4px;
+}
+
+.btn-img
+{
+    background: url('/img/camera.png');
+    border-style: none;
+    width: auto;
+    margin-top: -8px;
+   
+    
+}
+.btn-primary:hover
+{
+    cursor: default;
+    color: white !important;
 }
 /* Button */
 
@@ -236,6 +350,7 @@ a
     #footer-part2
     {
         height: 40px;
+        
     }
 }
 /* event in nav (footer) */
